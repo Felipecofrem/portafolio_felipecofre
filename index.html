@@ -1,268 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <title>Felipe Cofré</title>
-  </head>
-  <body>
-    <p class="p-3 mb-2 bg-primary text-white text-center h4">
-      Felipe J. Cofré M.
-    </p>
-    <p class="p-3 mb-2 bg-primary text-white text-center h1">PORTAFOLIO</p>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button
-            class="accordion-button collapsed fw-bold"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseOne"
-            aria-expanded="false"
-            aria-controls="flush-collapseOne"
-          >
-            Estudios
-          </button>
-        </h2>
-        <div
-          id="flush-collapseOne"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingOne"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div class="accordion-body">
-            Academia Desafío Latam, Generación #26
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button
-            class="accordion-button collapsed fw-bold"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseTwo"
-            aria-expanded="false"
-            aria-controls="flush-collapseTwo"
-          >
-            Experiencia Laboral
-          </button>
-        </h2>
-        <div
-          id="flush-collapseTwo"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingTwo"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div class="accordion-body">
-            <ol>
-              <li><b>Santiago, Chile, Clínica Las Condes: </b>Cirujano</li>
-              <li><b>Houston, USA:</b> Astronauta</li>
-              <li><b>Moscú, Rusia:</b> Computín</li>
-              <li><b>Mi casa:</b> Soporte de Hardware y Software</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button
-            class="accordion-button collapsed fw-bold"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#flush-collapseThree"
-            aria-expanded="false"
-            aria-controls="flush-collapseThree"
-          >
-            Trabajos realizados
-          </button>
-        </h2>
-        <div calss="container">
-        <div
-          id="flush-collapseThree"
-          class="accordion-collapse collapse"
-          aria-labelledby="flush-headingThree"
-          data-bs-parent="#accordionFlushExample"
-        >
-          <div class="accordion-body row d-flex text-center">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card mb-4" style="width: 278px">
-                <a
-                  href="https://felipecofrem.github.io/primerlanding"
-                  target="_blank"
-                  ><img
-                    src="assets/img/venta.jpg"
-                    class="card-img-top rounded-5"
-                    alt="Vista previa Landing Page"
-                    title="Landing Page"
-                /></a>
-                <div class="card-body">
-                  <h5 class="card-title robolite text-start">
-                    Primera página landing
-                  </h5>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-text">
-                      <p class="txt16 text-start mb-0">
-                        Sitio catálogo con productos a la venta mostrando lo
-                        aprendido en HTML
-                      </p>
-                      <!--  <div>
-                        <p class="text-start">
-                          <i class="fa-solid fa-map-marker-alt fa-1x pe-1"></i>
-                          286 Paseo Ahumada, Chile
-                        </p>
-                      </div>
-                    </li>
-                    <div class="container-flex text-end pt-4">
-                      <p class="inl-block txt16">$10.000</p>
-                      <h5 class="inl-block text-success">$8.000</h5>
-                    </div> -->
-                    </li>
-                  </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+            crossorigin="anonymous"
+        />
+        <title>Felipe Cofré</title>
+    </head>
+    <body>
+        <p class="p-3 mb-2 bg-primary text-white text-center h4">
+            Felipe J. Cofré M.
+        </p>
+        <p class="p-3 mb-2 bg-primary text-white text-center h1">PORTAFOLIO</p>
+        <main class="accordion accordion-flush" id="accordionFlushExample">
+            <section class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                        class="accordion-button collapsed fw-bold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseOne"
+                    >
+                        Estudios
+                    </button>
+                </h2>
+                <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                >
+                    <div class="accordion-body">
+                        Academia Desafío Latam, Generación #26
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card mb-4" style="width: 278px">
-                <a
-                  href="https://felipecofrem.github.io/iguana_page"
-                  target="_blank"
-                  ><img
-                    src="assets/img/iguana.jpg"
-                    class="card-img-top rounded-5"
-                    alt="Vista previa sitio Iguana"
-                    title="Iguana Page"
-                /></a>
-                <div class="card-body">
-                  <h5 class="card-title robolite text-start">
-                    Página Iguana del 3er desafío
-                  </h5>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-text">
-                      <p class="txt16 text-start mb-0">
-                        Pagina enfocada a lo aprendido con posicionamiento y
-                        otras características de CSS
-                      </p>
-                      <!--  <div>
-                        <p class="text-start">
-                          <i class="fa-solid fa-map-marker-alt fa-1x pe-1"></i>
-                          286 Paseo Ahumada, Chile
-                        </p>
-                      </div>
-                    </li>
-                    <div class="container-flex text-end me-2 pt-4">
-                      <p class="inl-block txt16">$10.000</p>
-                      <h5 class="inl-block text-success">$8.000</h5>
-                    </div>-->
-                    </li>
-                  </ul>
+            </section>
+            <section class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                        class="accordion-button collapsed fw-bold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseTwo"
+                    >
+                        Experiencia Laboral
+                    </button>
+                </h2>
+                <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                >
+                    <div class="accordion-body">
+                        <ol>
+                            <li>
+                                <b>Santiago, Chile, Clínica Las Condes: </b
+                                >Cirujano
+                            </li>
+                            <li><b>Houston, USA:</b> Astronauta</li>
+                            <li><b>Moscú, Rusia:</b> Computín</li>
+                            <li>
+                                <b>Mi casa:</b> Soporte de Hardware y Software
+                            </li>
+                        </ol>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card mb-4" style="width: 278px">
-                <a
-                  href="https://felipecofrem.github.io/primerpush"
-                  target="_blank"
-                  ><img
-                    src="assets/img/cupon.jpg"
-                    class="card-img-top rounded-5"
-                    alt="Vista previa sitio de cupones"
-                    title="Sitio cupones"
-                /></a>
-                <div class="card-body">
-                  <h5 class="card-title robolite text-start">
-                    Página de cupones
-                  </h5>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item card-text">
-                      <p class="txt16 text-start mb-0">
-                        Primera página web responsive con cupones para canjear,
-                        enfocada en elementos flexibles
-                      </p>
-                      <!--  <div>
-                        <p class="text-start">
-                          <i class="fa-solid fa-map-marker-alt fa-1x pe-1"></i>
-                          286 Paseo Ahumada, Chile
-                        </p>
-                     
-                    </li>
-                    <div class="container-flex text-end me-2 pt-4">
-                      <p class="inl-block txt16">$10.000</p>
-                      <h5 class="inl-block text-success">$8.000</h5>
-                    </div> </div>-->
-                    </li>
-                  </ul>
+            </section>
+            <section class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                        class="accordion-button collapsed fw-bold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="flush-collapseThree"
+                    >
+                        Trabajos realizados
+                    </button>
+                </h2>
+                <div calss="container">
+                    <div
+                        id="flush-collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample"
+                    >
+                        <div class="accordion-body row text-center">
+                            <article class="col-12 col-md-6 col-lg-4">
+                                <div class="card mb-4">
+                                    <a
+                                        href="https://felipecofrem.github.io/primerlanding"
+                                        target="_blank"
+                                        ><img
+                                            src="assets/img/venta.jpg"
+                                            class="card-img-top rounded-5"
+                                            alt="Vista previa Landing Page"
+                                            title="Landing Page"
+                                    /></a>
+                                    <div class="card-body">
+                                        <h5
+                                            class="card-title robolite text-start"
+                                        >
+                                            Primera página landing
+                                        </h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item card-text"
+                                            >
+                                                <p
+                                                    class="txt16 text-start mb-0"
+                                                >
+                                                    Sitio catálogo con productos
+                                                    a la venta mostrando lo
+                                                    aprendido en HTML
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-12 col-md-6 col-lg-4">
+                                <div class="card mb-4">
+                                    <a
+                                        href="https://felipecofrem.github.io/iguana_page"
+                                        target="_blank"
+                                        ><img
+                                            src="assets/img/iguana.jpg"
+                                            class="card-img-top rounded-5"
+                                            alt="Vista previa sitio Iguana"
+                                            title="Iguana Page"
+                                    /></a>
+                                    <div class="card-body">
+                                        <h5
+                                            class="card-title robolite text-start"
+                                        >
+                                            Página Iguana del 3er desafío
+                                        </h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item card-text"
+                                            >
+                                                <p
+                                                    class="txt16 text-start mb-0"
+                                                >
+                                                    Pagina enfocada a lo
+                                                    aprendido con
+                                                    posicionamiento y otras
+                                                    características de CSS
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-12 col-md-6 col-lg-4">
+                                <div class="card mb-4">
+                                    <a
+                                        href="https://felipecofrem.github.io/primerpush"
+                                        target="_blank"
+                                        ><img
+                                            src="assets/img/cupon.jpg"
+                                            class="card-img-top rounded-5"
+                                            alt="Vista previa sitio de cupones"
+                                            title="Sitio cupones"
+                                    /></a>
+                                    <div class="card-body">
+                                        <h5
+                                            class="card-title robolite text-start"
+                                        >
+                                            Página de cupones
+                                        </h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li
+                                                class="list-group-item card-text"
+                                            >
+                                                <p
+                                                    class="txt16 text-start mb-0"
+                                                >
+                                                    Primera página web
+                                                    responsive con cupones para
+                                                    canjear, enfocada en
+                                                    elementos flexibles
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
                 </div>
-              </div>
+            </section>
+        </main>
+        <form class="bg-primary text-white p-2">
+            <div class="mb-3 bg-danger">
+                <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Correo electrónico"
+                />
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+            <div class="mb-3">
+                <textarea
+                    class="form-control"
+                    rows="3"
+                    placeholder="Escríbeme"
+                ></textarea>
+            </div>
+            <div class="text-center">
+                <button
+                    type="submit"
+                    class="btn btn-light btn-primary enviar fw-bold"
+                >
+                    Enviar
+                </button>
+            </div>
+        </form>
 
-    <!--  <form class="bg-primary text-white">
-      <p class="h5 text-center robolite pt-3">Contacto</p>
-      <div class="mb-3 ps-4 pe-4">
-        <input
-          type="email"
-          class="form-control"
-          value="Escríbeme"
-          onFocus="if (this.value=='Escríbeme') this.value='';"
-        />
-      </div>
-      <div class="mb-3 ps-4 pe-4">
-        <input
-          type="email"
-          class="form-control"
-          value="Correo Electrónico"
-          onFocus="if (this.value=='Correo Electrónico') this.value='';"
-        />
-      </div>
-      <div class="text-center">
-        <button type="submit" class="btn btn-light btn-primary enviar">
-          Enviar
-        </button>
-      </div>
-    </form>-->
-    <form class="bg-primary text-white p-2">
-      <div class="mb-3 bg-danger">
-        <input
-          type="email"
-          class="form-control"
-          placeholder="Correo electrónico"
-        />
-      </div>
-      <div class="mb-3">
-        <textarea
-          class="form-control"
-          rows="3"
-          placeholder="Escríbeme"
-        ></textarea>
-      </div>
-      <div class="text-center">
-        <button type="submit" class="btn btn-light btn-primary enviar fw-bold">
-          Enviar
-        </button>
-      </div>
-    </form>
-    <footer>
-      <div class="p-3 mb-2 bg-danger text-white text-center h6">
-        POWERED BY VISUAL STUDIO CODE, 2022
-      </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <footer>
+            <div class="p-3 mb-2 bg-danger text-white text-center h6">
+                POWERED BY VISUAL STUDIO CODE, 2022
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
